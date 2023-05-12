@@ -40,7 +40,7 @@ struct HomeView: View {
             ZStack {
                 
                 Button {
-                    isOnBoardingViewActive = false
+                    isOnBoardingViewActive = true
                 } label: {
                     Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                         .imageScale(.large)
